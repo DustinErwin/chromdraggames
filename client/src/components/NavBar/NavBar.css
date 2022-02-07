@@ -1,0 +1,183 @@
+ul {
+  z-index: 2;
+
+  height: 4em;
+  width: 100%;
+  margin: 0 0 4em 0;
+  padding: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+li a {
+  font-size: large;
+  text-align: center;
+  font-family: "Fondamento";
+  color: var(--text-color);
+  margin: auto;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.facebook-icon {
+  height: 40px;
+}
+
+.twitter-icon {
+  height: 35px;
+}
+
+.phone-li {
+  width: 15%;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Fondamento";
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  font-size: 2em;
+}
+
+.adress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Fondamento";
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  font-size: 1em;
+  /* -webkit-text-stroke: 1px rgb(255, 245, 230); */
+}
+
+@media only screen and (max-width: 1920px) {
+  ul {
+    height: 5em;
+    margin: 0 0 5em 0;
+  }
+
+  .phone {
+    font-size: 2em;
+  }
+
+  .adress {
+    font-size: 1em;
+  }
+
+  li {
+    margin-right: 2%;
+  }
+
+  li a {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1536px) {
+  ul {
+    height: 4em;
+  }
+
+  .phone {
+    font-size: 1.2em;
+  }
+
+  .adress {
+    font-size: 0.9em;
+  }
+
+  li {
+    margin-right: 2%;
+  }
+
+  li a {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  ul {
+    height: 3.5em;
+    margin: 0 0 3.5em 0;
+  }
+
+  .phone {
+    font-size: 1em;
+  }
+
+  .adress {
+    font-size: 0.8em;
+  }
+
+  li {
+    margin-right: 2%;
+  }
+
+  li a {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  ul {
+    height: 3.3em;
+    margin: 0 0 3.2em 0;
+  }
+
+  .phone {
+    font-size: 0.8em;
+  }
+
+  .adress {
+    font-size: 0.6em;
+  }
+
+  li a {
+    font-size: 0.9em;
+  }
+  li {
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  ul {
+    height: 3em;
+    margin: 0 0 3em 0;
+  }
+
+  .phone {
+    font-size: 0.9em;
+  }
+
+  .adress {
+    font-size: 0.55em;
+  }
+
+  li a {
+    font-size: 0.9em;
+  }
+  li {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+@media only screen and (max-width: 667px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}

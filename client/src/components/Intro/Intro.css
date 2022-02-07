@@ -1,0 +1,99 @@
+.intro {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(80, 1, 1, 1) 50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+}
+
+#logo {
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+.intro-info {
+  font-size: 2em;
+  margin: 0 3% 0 3%;
+  text-align: center;
+  font-family: "Fondamento";
+  color: rgb(255, 245, 230);
+  opacity: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 1920px) {
+  .intro {
+    height: 1020px;
+  }
+
+  #logo {
+    height: 750px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+  }
+}
+@media only screen and (max-width: 1536px) {
+  .intro {
+    height: 840px;
+  }
+
+  #logo {
+    margin-bottom: 0px;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .intro {
+    height: 740px;
+  }
+
+  #logo {
+    margin-bottom: 0px;
+    height: 500px;
+  }
+
+  .intro-info {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .intro {
+    height: 600px;
+  }
+
+  #logo {
+    margin-bottom: 0px;
+    height: 440px;
+  }
+
+  .intro-info {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .intro {
+    height: 500px;
+  }
+
+  #logo {
+    margin-bottom: 0px;
+    height: 360px;
+  }
+
+  .intro-info {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (max-width: 667px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}

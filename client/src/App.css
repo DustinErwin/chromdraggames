@@ -1,0 +1,80 @@
+footer {
+  color: antiquewhite;
+}
+
+:root {
+  --primary-color: #500101;
+  --secondary-color: #000000;
+  --text-color: rgb(170, 170, 170);
+  /* --bodyBackgroundImage: url("./images/bgImages/tyrannyOfDragons.jpg"); */
+}
+
+body {
+  background-color: var(--secondary-color);
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* background-image: var(--bodyBackgroundImage);
+  background-attachment: fixed;
+  background-position: center 4em;
+  background-repeat: no-repeat;
+  background-size: 100% 94%; */
+}
+
+-webkit-scrollbar.body {
+  display: none;
+}
+@media only screen and (max-width: 1080px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 896px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 864px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 667px) {
+  .spacer1 {
+    height: 600px;
+  }
+
+  .spacer2 {
+    height: 200px;
+  }
+}
