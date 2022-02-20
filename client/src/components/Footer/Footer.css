@@ -55,3 +55,8 @@ footer {
     height: 200px;
   }
 }
+@media only screen and (max-width: 420px) {
+  footer {
+    height: 375px;
+  }
+}

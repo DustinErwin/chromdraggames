@@ -25,6 +25,14 @@
   padding: 2%;
 }
 
+.mobile-phone {
+  height: 200px;
+  display: none;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(255, 245, 230);
+  text-align: center;
+}
+
 @media only screen and (max-width: 1920px) {
   .intro {
     height: 1020px;
@@ -95,5 +103,23 @@
 
   .spacer2 {
     height: 200px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .intro {
+    height: 600px;
+  }
+
+  #logo {
+    margin-bottom: 0px;
+    height: 360px;
+  }
+
+  .mobile-phone {
+    display: block;
+  }
+
+  .intro-info {
+    font-size: 1.3em;
   }
 }

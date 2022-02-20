@@ -12,6 +12,7 @@ export default function Intro() {
           alt="Chromatic Dragon Games Logo"
         />
       </div>
+      <div className="mobile-phone font-style">603 • 841 • 5943</div>
       <div>
         <span className="intro-info">
           The Seacoast's premier gaming store, with plenty of tables to
