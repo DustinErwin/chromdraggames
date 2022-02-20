@@ -6,12 +6,12 @@ import "../card.css";
 export default function CardDual() {
   return (
     <>
-      <div className="feature-card dual-image font-style">
-        <div>
+      <div className="about">
+        <div className="left-dual-img">
           <img className="img-about" src="./images/scott.png" alt="scott" />
         </div>
 
-        <div className="card-info">
+        <div className="card-info font-style">
           <span className="card-title">About Us</span>
           <hr className="line-break" />
           <span>
@@ -22,8 +22,8 @@ export default function CardDual() {
           </span>
         </div>
 
-        <div>
-          <img className="img-about" src="./images/jeremy.jpg" alt="scott" />
+        <div className="right-dual-img">
+          <img className="img-about" src="./images/jeremy.jpg" alt="jeremy" />
         </div>
       </div>
     </>

@@ -1,5 +1,6 @@
 import CardDual from "../components/Cards/CardDual/CardDual";
 import NavBar from "../components/NavBar/NavBar";
+import Footer from "../components/Footer/Footer";
 
 function AboutPage() {
   return (
@@ -10,6 +11,7 @@ function AboutPage() {
       <CardDual></CardDual>
 
       <div className="spacer2"></div>
+      <Footer></Footer>
     </>
   );
 }
