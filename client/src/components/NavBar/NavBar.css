@@ -1,6 +1,5 @@
-ul {
+.navbar ul {
   z-index: 2;
-
   height: 4em;
   width: 100%;
   margin: 0 0 4em 0;
@@ -9,13 +8,12 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
   list-style-type: none;
   overflow: hidden;
   background-color: var(--primary-color);
 }
 
-li a {
+.navbar li a {
   font-size: large;
   text-align: center;
   font-family: "Fondamento";
@@ -62,6 +60,41 @@ li a:hover {
   /* -webkit-text-stroke: 1px rgb(255, 245, 230); */
 }
 
+.closedNavMobile {
+  display: none;
+  position: absolute;
+  position: fixed;
+  margin-top: 60px;
+  margin-left: 10%;
+
+  width: 80%;
+}
+
+.openNavMobile {
+  display: block;
+  position: absolute;
+  position: fixed;
+  margin-top: 60px;
+  margin-left: 10%;
+
+  width: 80%;
+}
+
+.openNavMobile li {
+  opacity: 98%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--primary-color);
+  background-color: var(--text-color);
+  transition: height 400ms;
+}
+
+.openNavMobile li a {
+  color: var(--primary-color);
+  font-size: large;
+}
 @media only screen and (max-width: 1920px) {
   ul {
     height: 5em;
@@ -185,6 +218,8 @@ li a:hover {
   ul {
     height: 3em;
     margin: 0 0 3em 0;
+    padding-left: 20px;
+    justify-content: left;
   }
 
   .phone {
@@ -196,13 +231,16 @@ li a:hover {
     font-size: 0.55em;
   }
 
-  li a {
+  .navbar li a {
     display: none;
     font-size: 0.9em;
   }
-  li {
+  .navbar li {
     display: none;
     margin-left: 1%;
     margin-right: 1%;
+  }
+  .openNavMobile {
+    display: block;
   }
 }
