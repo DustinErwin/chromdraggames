@@ -1,14 +1,15 @@
 import "./RpgPage.css";
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
+import ContentContainer from "../components/ContentContainer/ContentContainer";
 
 function RpgPage() {
   return (
-    <div>
+    <>
       <NavBar></NavBar>
-      <div class="content"></div>
+      <ContentContainer></ContentContainer>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
 

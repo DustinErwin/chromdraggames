@@ -1,10 +1,6 @@
-.social-box {
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.content {
+  min-height: 600px;
 }
-
 @media only screen and (max-width: 1080px) {
   .spacer1 {
     height: 600px;

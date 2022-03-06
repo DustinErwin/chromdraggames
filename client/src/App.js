@@ -5,7 +5,6 @@ import BoardGamesPage from "./pages/BoardGamesPage";
 import MtgPage from "./pages/MtgPage";
 import { Routes, Route } from "react-router-dom";
 import TableTopPage from "./pages/TableTopPage";
-import EventsPage from "./pages/Events";
 import AboutPage from "./pages/About";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Route path="/BoardGames" element={<BoardGamesPage />} />
         <Route path="/MagicTheGathering" element={<MtgPage />} />
         <Route path="/TableTopGames" element={<TableTopPage />} />
-        <Route path="/Events" element={<EventsPage />} />
         <Route path="/About" element={<AboutPage />} />
       </Routes>
     </div>

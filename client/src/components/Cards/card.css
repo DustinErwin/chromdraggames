@@ -160,6 +160,13 @@
   }
 }
 @media only screen and (max-width: 420px) {
+  .about {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .img-about {
+    max-width: 100%;
+  }
   .img-box {
     display: none;
   }
@@ -167,6 +174,8 @@
     height: 250px;
   }
   .card-info {
-    width: 100%;
+    margin: auto;
+    width: 325px;
+    font-size: 1.2em;
   }
 }

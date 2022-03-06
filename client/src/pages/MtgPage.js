@@ -1,10 +1,15 @@
+import "./MtgPage.css";
+import ContentContainer from "../components/ContentContainer/ContentContainer";
+import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 
 function MtgPage() {
   return (
-    <div>
+    <>
       <NavBar></NavBar>
-    </div>
+      <ContentContainer></ContentContainer>
+      <Footer></Footer>
+    </>
   );
 }
 
