@@ -90,7 +90,6 @@ li a:hover {
   justify-content: center;
   border-top: 1px solid var(--primary-color);
   background-color: var(--text-color);
-  transition: height 400ms;
 }
 
 .openNavMobile li a {
