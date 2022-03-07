@@ -66,7 +66,6 @@ li a:hover {
   position: fixed;
   margin-top: 60px;
   margin-left: 10%;
-
   width: 80%;
 }
 
@@ -76,8 +75,11 @@ li a:hover {
   position: fixed;
   margin-top: 60px;
   margin-left: 10%;
-
   width: 80%;
+}
+
+#mobileList {
+  display: block;
 }
 
 .openNavMobile li {
