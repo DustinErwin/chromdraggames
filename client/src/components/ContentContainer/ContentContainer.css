@@ -1,7 +1,8 @@
 .content {
   background-color: antiquewhite;
   border: solid 10px black;
-  min-height: 600px;
+  min-height: 1000px;
+  overflow: hidden;
 }
 .nav-gap {
   height: 66px;
@@ -11,7 +12,8 @@
   flex-direction: column;
   align-items: center;
   margin: 5px;
-  min-height: 600px;
+  min-height: 1000px;
+  overflow: hidden;
   border-width: 6px;
   border-style: solid;
   border-image: radial-gradient(black, rgb(151, 3, 3)) 1;
@@ -19,7 +21,7 @@
 .content-title {
   margin-top: 5%;
   padding: 5px;
-  font-family: "Times New Roman", serif;
+  font-family: "Fondamento";
   letter-spacing: 2px;
   font-size: 1.8em;
   font-weight: bold;
@@ -46,4 +48,11 @@
   font-family: "Times New Roman", serif;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+.product-card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }

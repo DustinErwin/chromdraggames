@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Table Top Games",
+    "description": "The battles are always raging here at Chromatis Dragon games! Come join one of our slow grow leagues for some fun or one of our tournaments if to feed you competitve side! We have a HUGE selection of minis just waiting to be assembled and painted as well as all the modeling supplies you will ever need!",
+    "products": [
+      {
+        "prodTitle": "Warhammer 40k",
+        "img": "./images/tableTop/warhammerBook.jpg",
+        "alt": "Warhammer 40k",
+        "prodDescription": "Warhammer 40,000 is set in the distant future, where a stagnant human civilization is beset by hostile aliens and supernatural creatures. The models in the game are a mixture of humans, aliens, and supernatural monsters, wielding futuristic weaponry and supernatural powers!"
+      }
+    ],
+    "events": [
+      {
+        "eventName": "",
+        "date": "",
+        "eventDesc": ""
+      }
+    ]
+  }
+]
