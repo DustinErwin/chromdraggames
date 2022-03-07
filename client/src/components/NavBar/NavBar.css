@@ -80,10 +80,10 @@ li a:hover {
 
 #mobileList {
   display: block;
+  z-index: 5;
 }
 
 .openNavMobile li {
-  opacity: 98%;
   height: 50px;
   display: flex;
   align-items: center;
