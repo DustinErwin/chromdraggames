@@ -1,0 +1,27 @@
+.prod-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+.prod-img-box {
+  min-height: 200px;
+}
+.prod-img {
+  height: 200px;
+}
+.prod-info-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  min-height: 200px;
+}
+.prod-title {
+  font-family: "Fondamento";
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 1.8em;
+  font-weight: bold;
+  border-bottom: solid 2px #000;
+}
