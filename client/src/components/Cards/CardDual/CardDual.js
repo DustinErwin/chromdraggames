@@ -15,10 +15,11 @@ export default function CardDual() {
           <span className="card-title">About Us</span>
           <hr className="line-break" />
           <span>
-            This is Jeremy and Scott, long-time gamers who know what gamers
-            want. These guys know what they're talking about when it comes to
-            games and it shows. They've worked hard to create a fun community
-            where gamers from all over can come and have a great time!
+            Chromatic Dragon Games is owned and operated by Jeremy and Scott,
+            who are long-time gamers who know what gamers want. These guys know
+            what they're talking about when it comes to games and it shows.
+            They've worked hard to create a fun community where gamers from all
+            over can come and have a great time!
           </span>
         </div>
 
