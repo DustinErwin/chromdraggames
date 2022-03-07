@@ -1,11 +1,8 @@
 import "./CollapsedNav.css";
 
 export default function CollapsedNav() {
-  //let menuItems = document.getElementById("mobileList");
-
   const navToggle = () => {
     var menu = document.getElementById("mobile-nav");
-    console.log(menu);
     if (menu.className === "closedNavMobile") {
       menu.className = "openNavMobile";
       //menuItems.className = "openNavMobile";
@@ -16,10 +13,10 @@ export default function CollapsedNav() {
   };
 
   return (
-    <div className="hamburger" onClick={() => navToggle()}>
+    <button type="button" className="hamburger" onClick={() => navToggle()}>
       <div className="line"></div>
       <div className="line"></div>
       <div className="line"></div>
-    </div>
+    </button>
   );
 }
