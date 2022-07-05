@@ -8,7 +8,36 @@ export default function Footer() {
         <div className="foot-div">
           Hours of operation
           <hr></hr>
-          Pretty much always open
+          <div className="open-times">
+            <div className="days">
+              Monday
+              <br />
+              Tuesday
+              <br />
+              Wednsday
+              <br />
+              Thursday
+              <br />
+              Friday
+              <br />
+              Saturday
+              <br />
+              Sunday
+              <br />
+            </div>
+            <div className="hours">
+              10:00am - 9:00pm <br />
+              10:00am - 9:00pm <br />
+              10:00am - 9:00pm <br />
+              10:00am - 9:00pm <br />
+              10:00am - 11:00pm <br />
+              10:00am - 11:00pm <br />
+              10:00am - 7:00pm <br />
+            </div>
+          </div>
+          <br />
+          We are often open much later than listed above. Please call ahead to
+          see how late we will be open on any given night.
         </div>
         <div className="foot-div">
           Stay Connected

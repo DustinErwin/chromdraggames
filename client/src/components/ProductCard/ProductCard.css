@@ -1,8 +1,9 @@
 .prod-card {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin: 40px;
   align-items: center;
+  width: 33%;
 }
 .prod-img-box {
   min-height: 200px;
