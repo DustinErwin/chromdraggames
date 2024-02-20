@@ -1,8 +1,7 @@
 .content {
-  background-color: antiquewhite;
-  border: solid 10px black;
+  background-color: --primary-color;
+  border: solid 10px #aaaaaa;
   min-height: 1000px;
-
   overflow: hidden;
 }
 .nav-gap {
@@ -17,14 +16,14 @@
   overflow: hidden;
   border-width: 6px;
   border-style: solid;
-  border-image: radial-gradient(black, rgb(151, 3, 3)) 1;
+  border-image: radial-gradient(#000000, #500101) 1;
 }
 .content-title {
   margin-top: 5%;
   padding: 5px;
   font-family: "Fondamento";
   letter-spacing: 2px;
-  font-size: 1.8em;
+  font-size: 3em;
   font-weight: bold;
   background-image: linear-gradient(
     to right,
@@ -39,11 +38,11 @@
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-stroke: 0.3px rgb(5, 4, 3);
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px #aaaaaa;
 }
 .content-description {
   text-align: center;
-  color: black;
+  color: #aaaaaa;
   margin-top: 5%;
   padding: 5px;
   font-family: "Times New Roman", serif;

@@ -6,6 +6,7 @@ import MtgPage from "./pages/MtgPage";
 import { Routes, Route } from "react-router-dom";
 import TableTopPage from "./pages/TableTopPage";
 import AboutPage from "./pages/About";
+import ManagePage from "./pages/ManagePage.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/MagicTheGathering" element={<MtgPage />} />
         <Route path="/TableTopGames" element={<TableTopPage />} />
         <Route path="/About" element={<AboutPage />} />
+        <Route path="/Manage" element={<ManagePage />} />
       </Routes>
     </div>
   );

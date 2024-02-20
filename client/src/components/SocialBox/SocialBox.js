@@ -7,16 +7,15 @@ export default function SocialBox() {
         <img
           className="icon"
           src="./images/button-facebook.png"
-          alt="facebook icon"
+          alt="facebook account link"
         />
       </a>
-
-      <a href="https://twitter.com/gameschromatic/">
-        <img className="icon" src="./images/button-twitter.png" alt="nowhere" />
-      </a>
-
       <a href="https://discord.gg/wcBZ8cSJhC">
-        <img className="icon" src="./images/button-discord.jpg" alt="nowhere" />
+        <img
+          className="icon"
+          src="./images/button-discord.jpg"
+          alt="discord chat account link"
+        />
       </a>
     </div>
   );

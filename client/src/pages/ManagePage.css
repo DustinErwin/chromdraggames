@@ -1,0 +1,12 @@
+.title {
+  color: bisque;
+}
+h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+.console {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}

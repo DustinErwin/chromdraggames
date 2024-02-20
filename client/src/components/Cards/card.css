@@ -59,12 +59,11 @@
   align-items: center;
   width: 40%;
   height: 100%;
-  padding: 0 2% 0 2%;
+  padding: 2% 2% 2% 2%;
 }
 
 .card-title {
   font-size: 2em;
-
   border-bottom: var(--primary-color) solid 2px;
 }
 
