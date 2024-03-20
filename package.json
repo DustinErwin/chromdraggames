@@ -16,14 +16,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^6.0.0",
+    "concurrently": "^6.5.1",
     "nodemon": "^1.18.7"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.16.3",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.3",
     "if-env": "^1.0.4",
-    "mongoose": "^5.8.11",
+    "mongoose": "^5.13.22",
     "mysql2": "^2.3.3",
     "react-google-photo": "^1.2.1"
   }
