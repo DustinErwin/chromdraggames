@@ -24,6 +24,7 @@
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "mongoose": "^5.8.11",
+    "mysql2": "^2.3.3",
     "react-google-photo": "^1.2.1"
   }
 }

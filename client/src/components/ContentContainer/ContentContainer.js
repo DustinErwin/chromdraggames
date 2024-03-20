@@ -2,7 +2,6 @@ import ProductCard from "../ProductCard/ProductCard";
 import "./ContentContainer.css";
 
 export default function ContentContainer(props) {
-  console.log(props);
   const productList = props.products;
   // check for page state
   return (

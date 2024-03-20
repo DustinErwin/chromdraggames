@@ -17,6 +17,7 @@
   flex-direction: column;
   margin: 10px;
   min-height: 200px;
+  color: #aaaaaa;
 }
 .prod-title {
   font-family: "Fondamento";
@@ -24,5 +25,5 @@
   padding: 5px;
   font-size: 1.8em;
   font-weight: bold;
-  border-bottom: solid 2px #000;
+  border-bottom: solid 2px #aaaaaa;
 }

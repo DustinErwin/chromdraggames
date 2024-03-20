@@ -56,7 +56,7 @@ a {
   max-width: 25%;
   height: 3px;
   color: grey;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
 footer {

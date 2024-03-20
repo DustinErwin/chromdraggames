@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const mysql = require("mysql2");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
@@ -10,6 +11,19 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
+
+// Connect to database
+const db = mysql.createConnection(
+  {
+    host: "127.0.0.1",
+    // MySQL username,
+    user: "root",
+    // {TODO: Add your MySQL password}
+    password: "rootroot",
+    database: "cdgdb",
+  },
+  console.log(`Connected to the cdgdb database.`)
+);
 
 // Define API routes here
 
